@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Winnow_Receiver">
+      <UniqueIdentifier>{6f3bd1e1-1f7f-41b1-9271-033aed044b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Winnow_Receiver">
+      <UniqueIdentifier>{5841a083-b0e9-4826-b092-e6ba140987a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Winnow_Transmitter">
+      <UniqueIdentifier>{d912c87f-47fb-4176-86cb-b98f64dd2841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Winnow_Transmitter">
+      <UniqueIdentifier>{1307ab5b-a341-498b-8ba5-86143705ab7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Randomness_Extractors">
+      <UniqueIdentifier>{119cb970-bd1e-431a-bb92-411c306baf21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Randomness_Extractors">
+      <UniqueIdentifier>{01d54256-7c59-47c9-8dbe-45b61bfd6717}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Winnow-QKD_Post-Processing-C++.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Public_RA_Toeplitz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Error_Check.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Permute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="message_Struct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Winnow_Receiver.cpp">
+      <Filter>Source Files\Winnow_Receiver</Filter>
+    </ClCompile>
+    <ClCompile Include="Winnow_Receiver_Processing.cpp">
+      <Filter>Source Files\Winnow_Receiver</Filter>
+    </ClCompile>
+    <ClCompile Include="Winnow_Transmitter.cpp">
+      <Filter>Source Files\Winnow_Transmitter</Filter>
+    </ClCompile>
+    <ClCompile Include="Winnow_Transmitter_Processing.cpp">
+      <Filter>Source Files\Winnow_Transmitter</Filter>
+    </ClCompile>
+    <ClCompile Include="Circulant.cpp">
+      <Filter>Source Files\Randomness_Extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="Dodis.cpp">
+      <Filter>Source Files\Randomness_Extractors</Filter>
+    </ClCompile>
+    <ClCompile Include="Toeplitz.cpp">
+      <Filter>Source Files\Randomness_Extractors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Public_RA_Toeplitz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Error_Check.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Permute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Winnow_Receiver.h">
+      <Filter>Header Files\Winnow_Receiver</Filter>
+    </ClInclude>
+    <ClInclude Include="Winnow_Receiver_Processing.h">
+      <Filter>Header Files\Winnow_Receiver</Filter>
+    </ClInclude>
+    <ClInclude Include="Winnow_Transmitter.h">
+      <Filter>Header Files\Winnow_Transmitter</Filter>
+    </ClInclude>
+    <ClInclude Include="Winnow_Transmitter_Processing.h">
+      <Filter>Header Files\Winnow_Transmitter</Filter>
+    </ClInclude>
+    <ClInclude Include="Circulant.h">
+      <Filter>Header Files\Randomness_Extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodis.h">
+      <Filter>Header Files\Randomness_Extractors</Filter>
+    </ClInclude>
+    <ClInclude Include="Toeplitz.h">
+      <Filter>Header Files\Randomness_Extractors</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
