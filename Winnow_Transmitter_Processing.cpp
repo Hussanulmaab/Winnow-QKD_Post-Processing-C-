@@ -126,7 +126,7 @@ void Winnow_Transmitter_Processing() {
 
 		ofstream R_RA_Public("R_EC_Bits.txt");
 		if (R_RA_Public.is_open()) {
-			for (int number : corrected_Receiver) {
+			for (int number : corrected_Receiver) {	
 				R_RA_Public << number;
 			}
 			R_RA_Public.close();
@@ -137,7 +137,7 @@ void Winnow_Transmitter_Processing() {
 		
 		// Adaptable Randomness Extraction
 		cout << "Adaptable Randomness Extraction ...." << endl;
-		Toeplitz();
+		Dodis();
 
 		ifstream file1("T_RA_Public_Check_A.txt");
 		if (file1.is_open()) {
@@ -187,7 +187,7 @@ void Winnow_Transmitter_Processing() {
 		// Private Randomness Extraction for Enhanced Security
 		if (Err_Val == 0) {
 			Channel_Uses += 1;
-			Toeplitz();
+			Dodis();
 			ifstream inputFile("Seed_Size.txt");
 			int n2_T;
 			inputFile >> n2_T;
